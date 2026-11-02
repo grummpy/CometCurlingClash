@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comet Curling Clash</title>
+  <link rel="icon" href="assets/icon.jpg">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #070414;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      display: block;
+      background: #070414;
+      box-shadow: 0 0 0 2px rgba(255, 79, 163, 0.35);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="1280" height="720" aria-label="Comet Curling Clash"></canvas>
+  <p id="live" class="sr-only" aria-live="polite"></p>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

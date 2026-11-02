@@ -1,0 +1,12 @@
+{
+  "name": "comet-curling-clash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Slide comets toward a gravity target and knock rivals off the rings.",
+  "scripts": {
+    "test": "node --test tests/"
+    "start": "python3 server.py"
+  },
+  "license": "MIT"
+}
